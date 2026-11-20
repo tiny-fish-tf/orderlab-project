@@ -4,6 +4,7 @@ def subtotal(unit_price: int, quantity: int) -> int:
         raise ValueError("negative input")
     return unit_price * quantity
 
+
 # orderlab/pricing.py (추가)
 def final_total(price: int, qty: int, discount: int) -> int:
     if not 0 <= discount <= 100:
